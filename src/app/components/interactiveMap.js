@@ -1,4 +1,6 @@
 import { useEffect, useRef } from "react";
+import ReactDOMServer from 'react-dom/server';
+import MarkerPopup from "../components/markerPopup";
 
 export default function InteractiveMapComponent() {
   const mapRef = useRef(); // Create a ref to store the map DOM element
@@ -14,7 +16,7 @@ export default function InteractiveMapComponent() {
       L.Icon.Default.mergeOptions({
         iconRetinaUrl: "marker-icon-2x.png",
         iconUrl: "marker-icon.png",
-        shadowUrl: "marker-shadow.png"
+        shadowUrl: "marker-shadow.png",
       });
 
       // Only create a new map instance if there isn't one already
@@ -31,7 +33,11 @@ export default function InteractiveMapComponent() {
         }).addTo(mapInstance.current);
       }
       // Add a marker at the coordinates for Boston
-      L.marker([42.3601, -71.0589]).addTo(mapInstance.current);
+      L.marker([42.3601, -71.0589], {
+        title: "Boston",
+      })
+        .addTo(mapInstance.current)
+        .bindPopup(ReactDOMServer.renderToString(<MarkerPopup />));
     }
   }, []);
 
