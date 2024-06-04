@@ -3,8 +3,9 @@
 import { useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import dynamic from 'next/dynamic';
 
-export function InteractiveMap() {
+const InteractiveMap = () => {
   useEffect(() => {
     // This code ensures that the map's icons are loaded correctly
     delete L.Icon.Default.prototype._getIconUrl;
@@ -30,10 +31,15 @@ export function InteractiveMap() {
   );
 }
 
+const DynamicInteractiveMap = dynamic(
+  () => Promise.resolve(InteractiveMap),
+  { ssr: false }  // This will make the component only render on client side.
+);
+
 export default function MapPage() {
   return (
     <>
-      <InteractiveMap />
+      <DynamicInteractiveMap />
     </>
   );
 }
