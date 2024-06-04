@@ -1,13 +1,16 @@
 import React from "react";
 
-const MarkerPopup = () => {
+const MarkerPopup = ({
+  title = "Boston",
+  link = "https://en.wikipedia.org/wiki/Boston",
+  linkText = "Learn more about Boston",
+}) => {
   return (
     <>
-      <h1>Test marker popup</h1>
-      <a href="https://en.wikipedia.org/wiki/Boston" target="_blank" rel="noopener noreferrer">
-        Learn more about Boston
+      <h1>{title}</h1>
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        {linkText}
       </a>
-
     </>
   );
 };
