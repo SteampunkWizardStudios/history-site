@@ -16,3 +16,7 @@
 .body {
     padding: 5px;
 }
+
+.title, .body {
+    color: #fff;
+}
