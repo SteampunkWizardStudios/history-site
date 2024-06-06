@@ -29,7 +29,7 @@ export default function Map({ children, x_loc, y_loc, zoom }) {
   }, [x_loc, y_loc, zoom]);
 
   return (
-    <div ref={mapRef} style={{ height: "100vh", width: "65vw" }}>
+    <div ref={mapRef} style={{ height: "calc(100vh - 50px)", width: "65vw" }}>
       {map && React.Children.map(children, child => React.cloneElement(child, { map }))}
     </div>
   );

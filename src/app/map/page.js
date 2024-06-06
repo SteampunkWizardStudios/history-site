@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import markers from "./markers.json";
 import InfoBox from "../components/infoBox.js";
+import TaskBar from "../components/taskBar.js";
 
 const InteractiveMap = dynamic(
   () => import("../components/interactiveMap.js"),
@@ -17,6 +18,7 @@ export default function MapPage() {
     <>
       <InteractiveMap markers={markers} />
       <InfoBox />
+      <TaskBar />
     </>
   );
 }
