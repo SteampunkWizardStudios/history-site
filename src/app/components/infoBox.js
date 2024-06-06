@@ -7,6 +7,7 @@ export default function InfoBox({
   return (
     <div className={styles.infoBox}>
       <h2 className={styles.title}>{title}</h2>
+      <hr></hr>
       <p className={styles.body}>{body}</p>
     </div>
   );
