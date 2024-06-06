@@ -1,0 +1,18 @@
+[
+  {
+    "location": [42.3601, -71.0589],
+    "altText": "Boston",
+    "popup": {
+      "title": "Boston",
+      "link": "https://en.wikipedia.org/wiki/Boston",
+      "linkText": "Learn more about Boston"
+    }
+  },
+  {
+    "location": [42.373611, -71.109733],
+    "altText": "Cambridge"
+  },
+  {
+    "popup": {}
+  }
+]
