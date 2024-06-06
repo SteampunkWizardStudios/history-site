@@ -1,0 +1,10 @@
+.question {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+.highlight {
+    background-color: rgba(255, 255, 0, 0.5);
+    cursor: pointer;
+}
