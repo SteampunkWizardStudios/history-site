@@ -1,9 +1,11 @@
-import Image from './components/baseImage'
+import Image from './components/baseImage';
 import styles from "./page.module.css";
+import TaskBar from "./components/taskBar.js";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <TaskBar />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
