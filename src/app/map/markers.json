@@ -7,7 +7,7 @@
       "link": "https://en.wikipedia.org/wiki/Boston",
       "linkText": "Learn more about Boston"
     },
-    "infoBox": "infoBox0.md"
+    "infoBox": "infoBox0.js"
   },
   {
     "location": [40.7128, -74.006],
@@ -17,7 +17,7 @@
       "link": "https://en.wikipedia.org/wiki/New_York_City",
       "linkText": "Learn more about New York City"
     },
-    "infoBox": "infoBox1.md"
+    "infoBox": "infoBox1.js"
   },
   {
     "popup": {}

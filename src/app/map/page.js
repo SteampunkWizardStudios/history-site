@@ -22,11 +22,11 @@ const InteractiveMap = dynamic(
 export default function MapPage() {
   const [infoBoxContent, setInfoBoxContent] = useState(null);
 
-  const handleMarkerClick = (marker) => {
-    fetch("infoBoxes/" + marker.infoBox)
-      .then((response) => response.text())
-      .then(setInfoBoxContent);
-  };
+  const handleMarkerClick = async (marker) => {
+  const contentModule = await import(`../infoBoxes/${marker.infoBox}`);
+  const Content = contentModule.default;
+  setInfoBoxContent(Content);
+};
 
   return (
     <>
