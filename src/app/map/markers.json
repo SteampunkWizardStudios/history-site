@@ -5,8 +5,21 @@
     "popup": {
       "title": "Boston",
       "link": "https://en.wikipedia.org/wiki/Boston",
-      "linkText": "Learn more about Boston",
-      "infoBox": "infoBox0.md"
-    }
+      "linkText": "Learn more about Boston"
+    },
+    "infoBox": "infoBox0.md"
+  },
+  {
+    "location": [40.7128, -74.006],
+    "altText": "New York City",
+    "popup": {
+      "title": "New York City",
+      "link": "https://en.wikipedia.org/wiki/New_York_City",
+      "linkText": "Learn more about New York City"
+    },
+    "infoBox": "infoBox1.md"
+  },
+  {
+    "popup": {}
   }
 ]

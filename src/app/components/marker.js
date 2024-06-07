@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import L from "leaflet";
 import ReactDOMServer from "react-dom/server";
 
@@ -7,12 +7,14 @@ export default function Marker({
   location = [0,0],
   altText = "Placeholder altText",
   children,
+  onClick
 }) {
   const markerRef = useRef(null);
 
   useEffect(() => {
     if (map && location) {
       markerRef.current = L.marker(location, { title: altText }).addTo(map);
+      markerRef.current.on('contextmenu', onClick);
 
       if (children) {
         const popupContent = ReactDOMServer.renderToString(children);
@@ -26,7 +28,5 @@ export default function Marker({
         map.removeLayer(markerRef.current);
       }
     };
-  }, [map, location, altText, children]);
-
-  return null;
+  }, [map, location, altText, children, onClick]);
 }
