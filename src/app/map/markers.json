@@ -6,16 +6,7 @@
       "title": "Boston",
       "link": "https://en.wikipedia.org/wiki/Boston",
       "linkText": "Learn more about Boston",
-      "infoBox": 0
-    }
-  },
-  {
-    "location": [42.373611, -71.109733],
-    "altText": "Cambridge",
-    "popup": {
-      "title": "Cambridge",
-      "link": "https://en.wikipedia.org/wiki/Cambridge",
-      "linkText": "Learn more about Cambridge"
+      "infoBox": "infoBox0.md"
     }
   }
 ]

@@ -1,14 +1,12 @@
 import styles from "../styles/infoBox.module.css";
+import ReactMarkDown from "react-markdown";
 
 export default function InfoBox({
-  title = "Placeholder InfoBox title",
-  body = "This is a placeholder InfoBox text.",
+  content = "# No content provided"
 }) {
   return (
     <div className={styles.infoBox}>
-      <h2 className={styles.title}>{title}</h2>
-      <hr></hr>
-      <p className={styles.body}>{body}</p>
+      <ReactMarkDown>{content}</ReactMarkDown>
     </div>
   );
 }
