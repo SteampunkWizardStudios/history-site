@@ -3,9 +3,7 @@
     "location": [42.3601, -71.0589],
     "altText": "Boston",
     "popup": {
-      "title": "Boston",
-      "link": "https://en.wikipedia.org/wiki/Boston",
-      "linkText": "Learn more about Boston"
+      "title": "Boston"
     },
     "infoBox": "infoBox0.js"
   },
@@ -13,9 +11,7 @@
     "location": [40.7128, -74.006],
     "altText": "New York City",
     "popup": {
-      "title": "New York City",
-      "link": "https://en.wikipedia.org/wiki/New_York_City",
-      "linkText": "Learn more about New York City"
+      "title": "New York City"
     },
     "infoBox": "infoBox1.js"
   },

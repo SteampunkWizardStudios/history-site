@@ -1,3 +1,18 @@
+.body,
 .header {
-    color: red;
+  color: white;
+}
+.header {
+  font-size: 24px;
+  text-align: center;
+}
+.body {
+  font-size: 16px;
+}
+
+.hrStyle {
+  border: none;
+  height: 1px;
+  background: #696969; /* Color of the line */
+  margin: 10px 0; /* Space above and below the line */
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 const MarkerPopup = ({
   title = "Placeholder Title",
-  link = "https://en.wikipedia.org/wiki/Placeholder_name",
-  linkText = "Learn more about placeholders",
+  link = "",
+  linkText = "",
 }) => {
   return (
     <>
@@ -11,7 +11,6 @@ const MarkerPopup = ({
       <a href={link} target="_blank" rel="noopener noreferrer">
         {linkText}
       </a>
-      <br></br>
     </>
   );
 };
