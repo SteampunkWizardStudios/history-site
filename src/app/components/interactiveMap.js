@@ -5,7 +5,7 @@ import MarkerPopup from "./markerPopup.js";
 
 export default function InteractiveMapComponent({ markers = [], onMarkerClick }) {
   return (
-    <Map x_loc={42.3601} y_loc={-71.0589} zoom={13}>
+    <Map x_loc={39.99942965194008} y_loc={-97.95470323071255} zoom={4}>
       {markers.map((marker, index) => (
         <Marker 
           key={index} 

@@ -1,21 +1,12 @@
 [
   {
-    "location": [42.3601, -71.0589],
-    "altText": "Boston",
-    "popup": {
-      "title": "Boston"
-    },
-    "infoBox": "infoBox0.js"
-  },
-  {
     "location": [40.7128, -74.006],
     "altText": "New York City",
     "popup": {
-      "title": "New York City"
+      "title": "Newspaper Hawkers",
+      "location": "Union Square Park",
+      "date": "1850-1915"
     },
-    "infoBox": "infoBox1.js"
-  },
-  {
-    "popup": {}
+    "infoBox": "infoBox0.txt"
   }
 ]

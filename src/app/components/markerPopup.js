@@ -2,15 +2,14 @@ import React from "react";
 
 const MarkerPopup = ({
   title = "Placeholder Title",
-  link = "",
-  linkText = "",
+  location = "Placeholder Location",
+  date = "Placeholder Date"
 }) => {
   return (
     <>
       <h1>{title}</h1>
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        {linkText}
-      </a>
+      <h3>{location}</h3>
+      <h3>{date}</h3>
     </>
   );
 };
