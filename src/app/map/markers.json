@@ -4,9 +4,29 @@
     "altText": "New York City",
     "popup": {
       "title": "Newspaper Hawkers",
-      "location": "Union Square Park",
+      "location": "Union Square Park, New York City",
       "date": "1850-1915"
     },
     "infoBox": "infoBox0.txt"
+  },
+  {
+    "location": [33.51649664814879, -86.81472788417257],
+    "altText": "Birmingham, Alabama",
+    "popup": {
+      "title": "Children's March",
+      "location": "Sixth Street Baptist Church, Birmingham, Alabama",
+      "date": "1963"
+    },
+    "infoBox": "infoBox1.txt"
+  },
+  {
+    "location": [42.98516688373177, -83.71382564754681],
+    "altText": "Flint, Michigan",
+    "popup": {
+      "title": "Flint Sit-Down Strike",
+      "location": "General Motors Plant, Flint, Michigan",
+      "date": "1936-1937"
+    },
+    "infoBox": "infoBox2.txt"
   }
 ]
