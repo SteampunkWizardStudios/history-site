@@ -28,5 +28,35 @@
       "date": "1936-1937"
     },
     "infoBox": "infoBox2.txt"
+  },
+  {
+    "location": [42.64758848199003, -71.30743132621596],
+    "altText": "Lowell, Massachusetts",
+    "popup": {
+      "title": "Lowell Mill Girls",
+      "location": "Lowell, Massachusetts",
+      "date": "1820-1840"
+    },
+    "infoBox": "infoBox3.txt"
+  },
+  {
+    "location": [38.88981347032905, -77.00905826597477],
+    "altText": "Washington, D.C.",
+    "popup": {
+      "title": "The Dreamers",
+      "location": "United States Capitol, Washington, D.C.",
+      "date": "2012-2024"
+    },
+    "infoBox": "infoBox4.txt"
+  },
+  {
+    "location": [34.025421953467244, -118.15791470048424],
+    "altText": "Los Angeles, California",
+    "popup": {
+      "title": "East L.A. Walkouts",
+      "location": "Garfield High School, Los Angeles, California",
+      "date": "1968"
+    },
+    "infoBox": "infoBox5.txt"
   }
 ]
