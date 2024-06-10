@@ -1,6 +1,7 @@
 "use client"
 
 import styles from "../styles/bib.module.css";
+import { useState, useEffect } from 'react';
 
 export default function Bib({
   links = [
@@ -13,9 +14,15 @@ export default function Bib({
     "https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/projects/free-speech-movement",
   ],
 }) {
-    const trimLink = (link, maxLength = typeof window !== 'undefined' ? Math.floor(window.innerWidth / 24) : 50) => {
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    setWindowWidth(window.innerWidth);
+  }, []);
+
+  const trimLink = (link, maxLength = Math.floor(windowWidth / 24)) => {
     return link.length > maxLength ? link.substring(0, maxLength - 3) + "..." : link;
-};
+  };
     
       const getDomain = (url) => {
         return url.split("/")[2];
