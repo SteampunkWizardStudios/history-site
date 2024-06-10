@@ -60,7 +60,7 @@
     "infoBox": "infoBox5.txt"
   },
   {
-    "location": "Sproul Hall, University of California, Berkeley",
+    "location": [37.869444011421855, -122.25929152785433],
     "altText": "Berkeley, California",
     "popup": {
       "title": "Free Speech Movement",
