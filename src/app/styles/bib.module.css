@@ -1,0 +1,28 @@
+.bib {
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto;
+    width: 40%;
+    border: 2px solid #3a3a3a;
+    padding: 4px;
+}
+
+.title {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.bib a {
+    display: block;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+    transition: all 0.15s ease-out;
+}
+
+.bib a:hover {
+    background-color: #3a3a3a;
+    text-decoration: underline;
+}

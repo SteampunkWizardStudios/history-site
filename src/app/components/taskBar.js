@@ -15,6 +15,11 @@ export default function TaskBar() {
             Map
           </Link>
         </div>
+        <div className={styles.taskBarItem}>
+          <Link className={styles.link} href="/bibliography">
+            Bibliography
+          </Link>
+        </div>
       </div>
     </>
   );
