@@ -58,5 +58,15 @@
       "date": "1968"
     },
     "infoBox": "infoBox5.txt"
+  },
+  {
+    "location": "Sproul Hall, University of California, Berkeley",
+    "altText": "Berkeley, California",
+    "popup": {
+      "title": "Free Speech Movement",
+      "location": "Sproul Hall, University of California, Berkeley",
+      "date": "1963-1964"
+    },
+    "infoBox": "infoBox6.txt"
   }
 ]
