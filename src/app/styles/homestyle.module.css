@@ -3,8 +3,22 @@
     font-size: 28px;
     text-align: center;
     margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 .highlight {
     background-color: rgba(255, 255, 0, 0.5);
     cursor: pointer;
+}
+.credit, .credit2{
+    text-align: center;
+    color: white;
+}
+.credit {
+    font-size: 24px;
+    font-weight: 500;
+}
+.credit2 {
+    font-size: 20px;
+    font-weight: 400;
 }
