@@ -75,5 +75,16 @@
     },
     "infoBox": "infoBox6.txt",
     "image": "infoImage6.png"
+  },
+  {
+    "location": [40.70922524304349, -74.01127270531369],
+    "altText": "New York City",
+    "popup": {
+      "title": "The Occupy Movement",
+      "date": "2011",
+      "location": "Zuccotti Park, New York City"
+    },
+    "infoBox": "infoBox7.txt",
+    "image": "infoImage7.png"
   }
 ]

@@ -12,6 +12,7 @@ export default function Bib({
     "https://guides.loc.gov/latinx-civil-rights/east-la-walkouts",
     "https://obamawhitehouse.archives.gov/sites/default/files/DREAM-Act-WhiteHouse-FactSheet.pdf",
     "https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/projects/free-speech-movement",
+    "https://www.loc.gov/item/lcwaN0006224/"
   ],
 }) {
   const [windowWidth, setWindowWidth] = useState(0);
