@@ -7,8 +7,25 @@
     margin-bottom: 10px;
 }
 .highlight {
-    background-color: rgba(255, 255, 0, 0.5);
+    position: relative;
+    overflow: hidden;
     cursor: pointer;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+}
+
+.highlight::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 0, 0.5);
+    transition: width 1.25s ease-out;
+}
+
+.highlight:hover::before {
+    width: 100%;
 }
 .credit, .credit2{
     text-align: center;
