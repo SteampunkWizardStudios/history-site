@@ -7,7 +7,8 @@
       "location": "Union Square Park, New York City",
       "date": "1850-1915"
     },
-    "infoBox": "infoBox0.txt"
+    "infoBox": "infoBox0.txt",
+    "image": "infoImage0.png"
   },
   {
     "location": [33.51649664814879, -86.81472788417257],
@@ -17,7 +18,8 @@
       "location": "Sixth Street Baptist Church, Birmingham, Alabama",
       "date": "1963"
     },
-    "infoBox": "infoBox1.txt"
+    "infoBox": "infoBox1.txt",
+    "image": "infoImage1.png"
   },
   {
     "location": [42.98516688373177, -83.71382564754681],
@@ -27,7 +29,8 @@
       "location": "General Motors Plant, Flint, Michigan",
       "date": "1936-1937"
     },
-    "infoBox": "infoBox2.txt"
+    "infoBox": "infoBox2.txt",
+    "image": "infoImage2.png"
   },
   {
     "location": [42.64758848199003, -71.30743132621596],
@@ -37,7 +40,8 @@
       "location": "Lowell, Massachusetts",
       "date": "1820-1840"
     },
-    "infoBox": "infoBox3.txt"
+    "infoBox": "infoBox3.txt",
+    "image": "infoImage3.png"
   },
   {
     "location": [38.88981347032905, -77.00905826597477],
@@ -47,7 +51,8 @@
       "location": "United States Capitol, Washington, D.C.",
       "date": "2012-2024"
     },
-    "infoBox": "infoBox4.txt"
+    "infoBox": "infoBox4.txt",
+    "image": "infoImage4.png"
   },
   {
     "location": [34.025421953467244, -118.15791470048424],
@@ -57,7 +62,8 @@
       "location": "Garfield High School, Los Angeles, California",
       "date": "1968"
     },
-    "infoBox": "infoBox5.txt"
+    "infoBox": "infoBox5.txt",
+    "image": "infoImage5.png"
   },
   {
     "location": [37.869444011421855, -122.25929152785433],
@@ -67,6 +73,7 @@
       "location": "Sproul Hall, University of California, Berkeley",
       "date": "1963-1964"
     },
-    "infoBox": "infoBox6.txt"
+    "infoBox": "infoBox6.txt",
+    "image": "infoImage6.png"
   }
 ]

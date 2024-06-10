@@ -28,7 +28,7 @@ export default function MapPage() {
       .then((response) => response.text())
       .then((data) => {
         setInfoBoxContent(
-          <Content title={marker.popup.title} content={data} />
+          <Content title={marker.popup.title} content={data} image={"images/"+marker.image}/>
         );
       });
   };

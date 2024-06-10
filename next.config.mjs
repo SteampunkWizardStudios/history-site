@@ -3,9 +3,12 @@ const nextConfig = {
   output: "export",
 
   publicRuntimeConfig: {
-  basePath: "/history-site",
+    basePath: "/history-site",
   },
-  
+  images: {
+    unoptimized: true,
+  },
+
   assetPrefix: "/history-site",
 };
 

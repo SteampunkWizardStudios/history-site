@@ -20,3 +20,6 @@
 .title, .body {
     color: #fff;
 }
+.infoImage {
+    margin: auto; /* This will apply an equal margin on the left and right */
+}
